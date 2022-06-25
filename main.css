@@ -1,4 +1,36 @@
 .head-div {
     display: flex;
+    top: 0px;
+    font-family: Arial;
     justify-content: center;
+    font-size: 30px;
+}
+.wrapper {
+    display: block;
+    justify-content: left;
+    padding-left: 10px;
+    color: white;
+    background-color: black;
+    width: 210px;
+    height: 500px;
+
+    font-size: 24px;
+}
+.wrapper .wrapper-content {
+    display: block;
+    border-left: 10px;
+    font-size: 24px;
+    background-color: black;
+}
+#login, #signup, #features, #chat {
+    width: 200px;
+    height: 50px;
+    background-color: #FF7F28;
+    display: block;
+    margin-bottom: 10%;
+    border-width: 0px;
+}
+
+body {
+    font-family: Arial;
 }
