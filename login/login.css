@@ -17,6 +17,16 @@
     height: 80px;
 }
 
+#return {
+    background: none;
+    color: white;
+    font-size: 24px;
+}
+
+#return:hover {
+    cursor: pointer;
+}
+
 .wrapper {
     display: flexbox;
     justify-content: left;

@@ -11,6 +11,16 @@
     font-size: 30px;
 }
 
+#return {
+    background: none;
+    color: white;
+    font-size: 24px;
+}
+
+#return:hover {
+    cursor: pointer;
+}
+
 #banner {
     margin-top: 2.5%;
     width: 700px;
